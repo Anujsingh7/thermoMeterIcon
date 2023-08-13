@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.outerDiv{
+ background-color: rgb(12, 102, 132);
+ width: 100%;
+ height: 100vh;
+ position: relative;
+ display: flex;
+ align-items: center;
+ font-family: 'Roboto', sans-serif;
+ /* justify-content: center; */
+}
+
+.innerDiv{
+    /* background-color: pink; */
+    position: absolute;
+    left: 20%;
+
+}
+
+.innerDiv h1{
+    color: white;
+    font-size: 110px;
+}
